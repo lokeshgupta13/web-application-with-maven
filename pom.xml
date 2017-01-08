@@ -67,11 +67,10 @@
                     <version>2.2</version>
                     <configuration>
                             <url>http://54.202.204.11:8080/managertext</url>
-		          <server>
-			         <id>TomcatServer</id>
-			         <username>admin</username>
+		          <server>TomcatServer      
+		         </server>		
+			    <username>admin</username>
 			         <password>password</password>
-		         </server>		          
                            <warFile>target/in28minutes.war</warFile>
                            <path>/</path>
                            <contextReloadable>true</contextReloadable>
